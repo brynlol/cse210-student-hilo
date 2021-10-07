@@ -16,7 +16,6 @@ class Card:
         Returns bool: true if higher, false if lower
         """
         pass
-        # return true or false
 
     def rotate_to_last(self):
         self.last_card = self.current_card
