@@ -38,4 +38,3 @@ root                    (project root folder)
 * Carson Bush - hyperdriveguy@byui.edu
 * Josh Herring - her21024@byui.edu
 * Bryndi Hellewell - brynlol12@gmail.com
-
