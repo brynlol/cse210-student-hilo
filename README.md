@@ -36,3 +36,4 @@ root                    (project root folder)
 ## Authors
 ---
 * Carson Bush - hyperdriveguy@byui.edu
+* Bryndi Hellewell - brynlol12@gmail.com
