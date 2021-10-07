@@ -1,4 +1,5 @@
 import random
+from game.interface import Interface
 
 class Card:
 
@@ -21,4 +22,15 @@ class Card:
         self.last_card = self.current_card
 
     def mod_score(self):
-        pass
+        if self.check_lo_hi():
+            if self.interface.choose_hi_lo() == "h":
+                score = 100
+            else:
+                score = -75
+        elif self.check_lo_hi == False:
+            if self.interface.choose_hi_lo() == "l":
+                score = 100
+            else:
+                score = -75
+        self.total_score += score
+        return self.total_score
