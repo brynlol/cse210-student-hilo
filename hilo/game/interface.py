@@ -18,7 +18,7 @@ class Interface:
         self.choose_hi_lo()
         self.card.rotate_to_last()
         self.card.draw_card()
-        print(f'Next card was: {self.card.current_card}')
+        print(f'Next card was: {self.card.pretty_card()}')
         self.total_score += self.card.mod_score()
         print(f'Your score is: {self.total_score}')
 
@@ -30,7 +30,7 @@ class Interface:
 
     def print_drawn_card(self):
         print('\033c')
-        print(f'The card is: {self.card.current_card}')
+        print(f'The card is: {self.card.pretty_card()}')
 
     def check_quit_game(self):
         if self.total_score <= 0:
