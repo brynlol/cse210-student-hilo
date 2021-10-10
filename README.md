@@ -24,7 +24,9 @@ The project files and folders are organized as follows:
 root                    (project root folder)
 +-- hilo                (source code for game)
   +-- game              (specific game classes)
-  +-- __init__.py       (python package file)
+    +-- __init__.py       (python package file)
+    +-- card.py         (core functionality of the game)
+    +-- interface.py    (what the user sees)
   +-- __main__.py       (entry point for program)
 +-- README.md           (general info)
 ```
@@ -38,3 +40,4 @@ root                    (project root folder)
 * Carson Bush - hyperdriveguy@byui.edu
 * Josh Herring - her21024@byui.edu
 * Bryndi Hellewell - brynlol12@gmail.com
+* Chase Odermott - ode16003@byui.edu
